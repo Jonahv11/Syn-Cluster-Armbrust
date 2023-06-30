@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "syn-cluster-armbrust"
+version = "0.1.0"
+description = "Comparing residual gene expression data with environmental factors"
+authors = ["Jonah Valenti"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "syn_cluster_armbrust"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+notebook = "^6.5.4"
+scipy = "^1.11.1"
+matplotlib = "^3.7.1"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
