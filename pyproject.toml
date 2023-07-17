@@ -13,6 +13,8 @@ notebook = "^6.5.4"
 scipy = "^1.11.1"
 matplotlib = "^3.7.1"
 pandas = "^2.0.3"
+seaborn = "^0.12.2"
+plotly = "^5.15.0"
 
 
 [build-system]
